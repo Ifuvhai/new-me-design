@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.banner-container{
+    height: 100vh;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+}
+.banner-info{
+    margin-right: 200px;
+    text-align: right;
+}
+.title{
+    font-size: 70px;
+    color: white;
+}
+.description{
+    color: white;
+    padding: 15px 0px;
+    font-size: 18px;
+}
+.btn{
+    margin-top: 15px;
+    padding: 18px 35px;
+    color: rgb(0, 119, 255);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.text-section{
+   
+}
+.p-description{
+    font-size: 18px;
+    padding: 18px;
+}
+.title-two{
+    font-size: 70px;
+    margin-left: 13px;
+}
+.plan{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 20px 0px;
+}
+.p-img{
+    margin-left: 35px;
+}
+.desc{
+    margin-left: 25px;
+    font-size: 18px;
+}
+.plan-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 60px;
+    height: 300px;
+    
+}
+.web{
+  margin: 20px 50px;
+  text-align: center;
+}
+.about-section{
+    height: 500px;
+    /* background-color: aqua; */
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-text{
+    margin-left: 450px;
+    font-size: 25px;
+    color: white;
+
+}
+.footer-section{
+    background-color: black;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    margin-top: 20px;
+    padding-right: 20px;
+}
+.email{
+    text-decoration: none;
+    color: white;
+}
+.input-email{
+    padding: 20px 66px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: 19px;
+    padding-left: 18px;
+    color: white;
+}
+
+.last{
+    font-size: 40px;
+}
+.btn-last{
+    background-color: rgba(30, 30, 138, 0.945);
+    color: white;
+    padding: 20px 40px;
+    font-style: normal;
+}
